@@ -1,0 +1,6 @@
+build-*
+*.pro.user
+*.log
+**/*.o
+tests/*.xml
+

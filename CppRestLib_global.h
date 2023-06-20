@@ -1,0 +1,12 @@
+#ifndef CPPRESTLIB_GLOBAL_H
+#define CPPRESTLIB_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(CPPRESTLIB_LIBRARY)
+#  define CPPRESTLIB_EXPORT Q_DECL_EXPORT
+#else
+#  define CPPRESTLIB_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // CPPRESTLIB_GLOBAL_H

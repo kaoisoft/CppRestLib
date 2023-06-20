@@ -1,0 +1,5 @@
+- Add a flag to allow one-way (server only) authentication
+- run code through valgrind
+- add client library code
+- add sample applications
+- Need to add unit/integration tests
